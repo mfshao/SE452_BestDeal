@@ -19,12 +19,12 @@ The following is the high-level description for BestDeal website:
     2. The customer will be provided with a confirmation number and a delivery date (2 weeks after the order date) that the customer can use to cancel an order at a later timer, though it must be 5 business days before the delivery date.
 
 ## Installation, Compliation and Execution
-- Unzip the compressed file SE452_Assignment1_BestDeal.zip.
+- Unzip the compressed file.
 - Put unzipped folder "BestDeal" under Tomcat's webapp path (%TOMCAT_HOME\webapps).
 - All source codes are under the folder \BestDeal\WEB-INF\classes. In case you need to recompile, open command prompt window, navigate to %TOMCAT_HOME\webapps\BestDeals\WEB-INF\classes and issue javac command. Launch Tomcat server, the servlet application now can be accessed via http://localhost/BestDeal/
 
 ## Notes
-- For testing purpose, 3 users will be created upon lanuching. These users are:
+- For testing purpose, 3 users will be created upon launching. These users are:
     1. username = "aa", password = "aa", type = "Customer";
     2. username = "as", password = "as", type = "Salesman";
     3. username = "ad", password = "ad", type = "Store Manager".
